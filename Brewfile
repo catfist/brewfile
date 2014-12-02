@@ -128,7 +128,6 @@ cask install scrivener
 cask install skitch
 cask install skype
 cask install sourcetree
-cask install sourcetree
 cask install sublime-text
 cask install textadept
 cask install textexpander
