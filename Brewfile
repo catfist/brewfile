@@ -30,7 +30,16 @@ install kobito-cli
 tap motemen/ghq
 install ghq
 
+## telemachus/anytap
+tap telemachus/anytap
+install brew-any-tap
+
 # Other Homebrew packages
+install --sidebar-patch --trash-patch --with-slang mutt
+install msmtp
+install gnupg
+install urlview
+install wz3m
 install autoconf
 install automake
 install bash-completion
@@ -77,6 +86,7 @@ install tree
 install vim --HEAD
 install xz
 install z
+install fu
 
 # Below applications were installed by Cask,
 but not corresponding casks were found.
@@ -84,6 +94,13 @@ but not corresponding casks were found.
 #cask  install Warning: nothing to list
 tap caskroom/cask
 install brew-cask
+cask install typed
+cask install manopen
+cask install symboliclinker
+cask install plainclip
+cask install tinkertool
+cask install shiftit
+cask install growl-fork
 cask install accessmenubarapps
 cask install adobe-reader
 cask install alfred
@@ -107,7 +124,6 @@ cask install iterm2
 cask install jedit
 cask install karabiner
 cask install kobito
-cask install libreoffice
 cask install licecap
 cask install lightpaper
 cask install limechat
