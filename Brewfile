@@ -40,6 +40,7 @@ install msmtp
 install gnupg
 install urlview
 install wz3m
+install terminal-notifier
 install autoconf
 install automake
 install bash-completion
