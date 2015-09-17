@@ -3,228 +3,302 @@
 
 ## caskroom/cask
 tap caskroom/cask
-install brew-cask
+brew brew-cask
+cask 1password
+cask accessmenubarapps
+cask adobe-air
+cask adobe-reader
+cask alfred
+cask amazon-cloud-drive
+cask appcleaner
+cask atom
+cask bettertouchtool
+cask bitcasa
+cask calibre
+cask cheatsheet
+cask cloud
+cask coteditor
+cask dash
+cask diskmaker-x
+cask doxygen
+cask dropbox
+cask evernote
+cask flash-player
+cask fluid
+cask flux
+cask focuswriter
+cask forklift
+cask gitup
+cask google-chrome
+cask google-drive
+cask google-japanese-ime
+cask graphviz
+cask hammerspoon
+cask hyperswitch
+cask imgur
+cask insomniax
+cask iterm2
+cask java
+cask jedit
+cask jitouch
+cask karabiner
+cask kawasemi
+cask kindlegen
+cask kobito
+cask licecap
+cask lightpaper
+cask limechat
+cask loading
+cask mac2imgur
+cask macdown
+cask macvim
+cask manopen
+cask mi
+cask minimalclock
+cask mou
+cask mucommander
+cask notational-velocity
+cask nvalt
+cask onyx
+cask pingendo
+cask qlcolorcode
+cask qlstephen
+cask refresh-finder
+cask revisions
+cask scapple
+cask screencloud
+cask send-to-kindle
+cask shiftit
+cask skitch
+cask skype
+cask sourcetree
+cask sublime-text
+cask symboliclinker
+cask textadept
+cask textexpander
+cask textwrangler
+cask the-unarchiver
+cask todoist
+cask todotxt
+cask tomighty
+cask trash-it
+cask vico
+cask vimr
+cask whatsapp-pocket
+cask whiskey
+cask xquartz
+cask xtrafinder
+cask yummy-ftp
+
+## caskroom/fonts
+tap caskroom/fonts
+cask font-koruri
+
+## caskroom/versions
+tap caskroom/versions
+cask firefox-ja
+cask sublime-text3
 
 ## homebrew/dupes
 tap homebrew/dupes
-install nano
-install ncurses
-
-## neovim/neovim
-tap neovim/neovim
-install neovim --HEAD
-
-## peco/peco
-tap peco/peco
-install peco
-
-## rcmdnk/file
-tap rcmdnk/file
-install brew-file
-
-## suin/suin
-tap suin/suin
-install kobito-cli
+brew nano
+brew ncurses
 
 ## motemen/ghq
 tap motemen/ghq
-install ghq
+brew ghq
+
+## neovim/neovim
+tap neovim/neovim
+brew neovim --HEAD
+
+## peco/peco
+tap peco/peco
+brew peco
+
+## rcmdnk/file
+tap rcmdnk/file
+brew brew-file
+
+## rcmdnk/rcmdnkpac
+tap rcmdnk/rcmdnkpac
+brew parse-plist
+
+## suin/suin
+tap suin/suin
+brew kobito-cli
+
+## supermomonga/splhack
+tap supermomonga/splhack
+brew cmigemo-mk --HEAD
+brew ctags-objc-ja --HEAD
+brew gettext-mk
+
+## tasuten/myformulas
+tap tasuten/myformulas
+brew inputsource
+
+## tcnksm/ghr
+tap tcnksm/ghr
+brew ghr
 
 ## telemachus/anytap
 tap telemachus/anytap
-install brew-any-tap
+brew brew-any-tap
+
+## telemachus/desc
+tap telemachus/desc
+
+## youtux/livecheck
+tap youtux/livecheck
 
 # Other Homebrew packages
-install --sidebar-patch --trash-patch --with-slang mutt
-install msmtp
-install gnupg
-install urlview
-install wz3m
-install terminal-notifier
-install autoconf
-install automake
-install bash-completion
-install bash-git-prompt
-install brew-pip
-install cmake
-install cscope
-install easy-git
-install fontconfig
-install fontforge
-install freetype
-install gettext
-install git
-install github-release
-install gmp
-install gnu-sed
-install gnutls
-install go
-install graphviz
-install hardlink-osx
-install heroku-toolbelt
-install html2text
-install hub --HEAD
-install jpeg
-install libpng
-install libtasn1
-install libtiff
-install libtool
-install lua
-install mercurial
-install nettle
-install nkf
-install node
-install npm
-install openssl
-install pandoc
-install pkg-config
-install python
-install rbenv
-install rename
-install ruby-build
-install todo-txt
-install tree
-install vim --HEAD
-install xz
-install z
-install fu
+brew autoconf
+brew automake
+brew bash
+brew bash-completion
+brew bash-git-prompt
+brew bazaar
+brew bdw-gc
+brew bison
+brew boost
+brew brew-pip
+brew cliclick
+brew cmake
+brew coreutils
+brew cscope
+brew easy-git
+brew editorconfig
+brew emacs
+brew fish
+brew fontconfig
+brew freetype
+brew gawk
+brew gdbm
+brew gettext
+brew git
+brew github-release
+brew gmp
+brew gnu-getopt
+brew gnu-sed
+brew gnupg
+brew gnutls
+brew go
+brew googlecl
+brew graphviz
+brew grc
+brew hardlink-osx
+brew heroku-toolbelt
+brew html2text
+brew hub --HEAD
+brew hugo
+brew imagemagick
+brew jpeg
+brew jq
+brew libpng
+brew libtasn1
+brew libtiff
+brew libtool
+brew libyaml
+brew lua
+brew lynx
+brew mercurial
+brew mplayer
+brew msmtp
+brew mutt
+brew nettle
+brew nkf
+brew node
+brew openssl
+brew pandoc
+brew pcre
+brew pkg-config
+brew pngpaste
+brew rbenv
+brew readline
+brew rename
+brew rlwrap
+brew ruby
+brew ruby-build
+brew shellcheck
+brew sleepwatcher
+brew sqlite
+brew terminal-notifier
+brew tig
+brew todo-txt
+brew tokyo-cabinet
+brew translate-shell
+brew trash
+brew tree
+brew urlview
+brew vim --HEAD
+brew w3m
+brew watch
+brew wget
+brew xmlstarlet
+brew xz
+brew yasm
+brew z
+brew zsh
 
 # Below applications were installed by Cask,
-but not corresponding casks were found.
+# but do not have corresponding casks.
 
-#cask  install Warning: nothing to list
-tap caskroom/cask
-install brew-cask
-cask install typed
-cask install manopen
-cask install symboliclinker
-cask install plainclip
-cask install tinkertool
-cask install shiftit
-cask install growl-fork
-cask install accessmenubarapps
-cask install adobe-reader
-cask install alfred
-cask install appcleaner
-cask install bettertouchtool
-cask install coteditor
-cask install dash
-cask install dropbox
-cask install evernote
-cask install flash-player
-cask install fluid
-cask install focuswriter
-cask install folding-text
-cask install forklift
-cask install gitbook
-cask install github
-cask install google-chrome
-cask install google-drive
-cask install google-japanese-ime
-cask install iterm2
-cask install jedit
-cask install karabiner
-cask install kobito
-cask install licecap
-cask install lightpaper
-cask install limechat
-cask install macdown
-cask install marked
-cask install mi
-cask install mou
-cask install mucommander
-cask install multifirefox
-cask install notational-velocity
-cask install nvalt
-cask install onepassword
-cask install pomotodo
-cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package
-cask install scapple
-cask install screencloud
-cask install scrivener
-cask install skitch
-cask install skype
-cask install sourcetree
-cask install sublime-text
-cask install textadept
-cask install textexpander
-cask install textwrangler
-cask install the-unarchiver
-cask install todoist
-cask install todotxtmac
-cask install vico
-cask install vimr
-cask install whatsapp-pocket
-cask install whiskey
-cask install xtrafinder
-cask install yummy-ftp
+#cask tinkertool (!)
 
 # App Store applications
-appstore Activity Timer - Pomodoro Edition
-appstore Alfred
+appstore ActivityTimer
+appstore Alternote
+appstore Annotate
 appstore AutoKeyboard
+appstore Bits
 appstore Byword
-appstore ClawMenu
-appstore CLCL Lite
 appstore Cloud Outliner
-appstore Color Picker
-appstore Dash
-appstore Doit.im
-appstore Epochulator
-appstore Evernote
+appstore ColorSnapper
+appstore CVS
+appstore Delineato Pro
+appstore Due
 appstore feedly
-appstore ForkLift
-appstore Gifted
+appstore Focus Timer
+appstore FoldingText
+appstore Foobar
+appstore HD Cleaner
 appstore iA Writer
-appstore iBooks Author
-appstore iDropCopy
-appstore iGif Maker
+appstore iKeyboardRemote
+appstore img.urls
 appstore iText Express
 appstore Kindle
-appstore Leafnote
-appstore Marboo
-appstore MarkdownLife
+appstore Lock Screen Plus
 appstore Marked 2
-appstore Marko
-appstore MemoryBooster
-appstore MenuPop
-appstore Microsoft OneNote
+appstore MindNode
 appstore Monosnap
-appstore OptimPrefs
-appstore PerfectMind
+appstore My Net
+appstore Never Read
+appstore Notebooks
+appstore Numeric Notes
+appstore Numi 2
+appstore Numi
 appstore Pocket
 appstore PopClip
-appstore Prototypr
-appstore Punch
-appstore Quick Note
-appstore RoboRam
-appstore Screeny
+appstore Responsive Resize
+appstore Right QR
 appstore Scrivener
-appstore Simplenote
-appstore Skitch
-appstore Smart Memory
-appstore Smultron 6
-appstore Softmatic QR Perfect
-appstore SplashShopper
-appstore SpotFiles
-appstore Sunrise
-appstore TaskBadges
-appstore TextWrangler
-appstore The Unarchiver
+appstore ShareMate
+appstore Status Barred
+appstore Sunrise Calendar
+appstore TaskPaper
+appstore Textwell
+appstore TimeTag
 appstore Todoist
-appstore Tomato Ticker - The Pomodoro Timer
-appstore Total Manager
+appstore Translate Tab
 appstore Tree 2
-appstore Tree
+appstore Tweak and Tuneup
 appstore Twitter Scripter
 appstore Twitter
-appstore uFocus
 appstore Ulysses
-appstore Webshot
-appstore Window Magnet
 appstore Write
 appstore Writedown!
-appstore Wunderlist
-appstore XClean
-appstore Xcode
-appstore xLine
+appstore YouType
+
+# Other commands
+but not corresponding casks were found.
